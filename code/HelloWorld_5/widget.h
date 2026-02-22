@@ -15,6 +15,7 @@ public:
     Widget(QWidget *parent = nullptr);
     ~Widget();
 
+    void handleClick();
 private:
     Ui::Widget *ui;
 };

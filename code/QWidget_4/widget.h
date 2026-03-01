@@ -15,15 +15,6 @@ public:
     Widget(QWidget *parent = nullptr);
     ~Widget();
 
-private slots:
-    void on_pushButton_up_clicked();
-
-    void on_pushButton_down_clicked();
-
-    void on_pushButton_left_clicked();
-
-    void on_pushButton_right_clicked();
-
 private:
     Ui::Widget *ui;
 };

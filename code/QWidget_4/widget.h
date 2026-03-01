@@ -15,6 +15,13 @@ public:
     Widget(QWidget *parent = nullptr);
     ~Widget();
 
+private slots:
+    void on_pushButton_accept_clicked();
+
+    void on_pushButton_reject_clicked();
+
+    void on_pushButton_reject_pressed();
+
 private:
     Ui::Widget *ui;
 };
